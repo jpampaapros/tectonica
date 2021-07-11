@@ -1,0 +1,8 @@
+.ani-slider-benefits{
+  opacity: 0;
+  transition: opacity .3s linear;
+}
+
+.slick-slide.slick-current.slick-active .ani-slider-benefits{
+  opacity: 1;
+}

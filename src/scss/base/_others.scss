@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button,
+a,
+[type="submit"],
+[type="file"] {
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: initial;
+}
+
+button,
+[type="submit"],
+[type="file"] {
+  background-color: transparent;
+  border: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: initial;
+  margin-bottom: initial;
+}
+
+img{
+  max-width: 100%;
+}
+
+section{
+  position: relative;
+}

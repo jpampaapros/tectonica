@@ -1,0 +1,46 @@
+// VARIABLES CSS
+:root {
+  --color-pagina: #65CC29;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                THEME COLORS                                */
+/* -------------------------------------------------------------------------- */
+
+$theme-colors: (
+  "white-100": white,
+  "gray-100": #F7F5F1,
+  "gray-200": #C8CFCB,
+  "gray-300": #737B7D,
+  "gray-400": #616161,
+  "gray-500": rgba(74, 79, 85, 0.5),
+  "gray-600": #676567,
+  "black-100": #4A4F55,
+  "black-200": #000000,
+  "brown-100": #B1A77E,
+  "brown-200": #F7F5F1,
+  "green-100": #009A96,
+  "green-200": #65CC29,
+  "page": var(--color-pagina),
+) !default;
+
+// PREFIX
+$prefix-color: "color" !default;
+$prefix-bg-color: "bg" !default;
+
+/* -------------------------------------------------------------------------- */
+/*                                 FONT FAMILY                                */
+/* -------------------------------------------------------------------------- */
+
+$font-coco: 'CocoSharp', serif;
+$font-coco-bold: 'CocoSharp Bold', serif;
+$font-geometria: 'Geometria', serif;
+$font-geometria-bold: 'Geometria Bold', serif;
+$font-sen: 'Sen', serif;
+$font-sen-bold: 'Sen Bold', serif;
+$font-sen-bolder: 'Sen Bolder', serif;
+$font-ttnorms: 'TT Norms', serif;
+$font-ttnorms-bold: 'TT Norms Bold', serif;
+$font-mulish: 'Mulish Regular', serif;
+$font-mulish-bold: 'Mulish Bold', serif;
+$font-gilroy-bold: 'Gilroy-Bold', serif;

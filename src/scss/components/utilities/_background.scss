@@ -1,0 +1,12 @@
+@each $name, $value in $theme-colors {
+  .#{$prefix-bg-color}-#{$name} {
+    background-color: $value;
+  }
+}
+
+
+.sm-bg-white-100{
+  @media (max-width: 767px){
+    background-color: white;
+  }
+}

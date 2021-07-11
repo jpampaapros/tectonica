@@ -1,0 +1,56 @@
+.btn{
+  min-width: desk(213);
+  padding-top: desk(12);
+  padding-bottom: desk(12);
+  border-radius: desk(4);
+  font-family: $font-sen-bold;
+  font-size: desk(14);
+  line-height: desk(18);
+  letter-spacing: desk(.3);
+  @media (max-width: 767px){
+    min-width: mov(213);
+    padding-top: mov(12);
+    padding-bottom: mov(12);
+    border-radius: mov(4);
+    font-family: $font-sen-bold;
+    font-size: mov(14);
+    line-height: mov(18);
+    letter-spacing: mov(.3);
+  }
+}
+.btn-overlay{
+  font-family: $font-sen-bold;
+  font-size: desk(18);
+  line-height: desk(18);
+  letter-spacing: desk(.3);
+  padding: desk(12) desk(18);
+  
+  @media (max-width: 767px){
+    font-size: mov(18);
+    line-height: mov(18);
+    letter-spacing: mov(.3);
+    padding: mov(12) mov(18);
+  }
+}
+
+
+.btn-outline{
+  border: desk(1) solid #404143;
+  box-sizing: border-box;
+  border-radius: desk(4);
+}
+
+.btn-gracias{
+  font-family: $font-sen-bold;
+  font-size: desk(14);
+  line-height: desk(20);
+  padding: desk(10) desk(16);
+  border-radius: desk(8);
+
+  @media (max-width: 767px){
+    font-size: mov(14);
+    line-height: mov(20);
+    border-radius: mov(8);
+    padding: mov(10) mov(16);
+  }
+}

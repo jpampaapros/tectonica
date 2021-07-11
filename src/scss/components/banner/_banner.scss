@@ -1,0 +1,66 @@
+.banner-contenido__title{
+  font-family: "Geometria",serif;
+  font-size: calc(var(--width_pantalla) * (calc(40/var(--width_base))));
+  line-height: calc(var(--width_pantalla) * (calc(50/var(--width_base))));
+  letter-spacing: calc(var(--width_pantalla) * (calc(5/var(--width_base))));
+  color: #4A4F55;
+  padding-top: calc(var(--width_pantalla) * (calc(102/var(--width_base))));
+
+  @media (max-width: 767px){
+    font-size: mov(20);
+    line-height: mov(20);
+    letter-spacing: mov(.2);
+    padding-top: mov(26);
+  }
+}
+
+.banner-contenido__description{
+  margin-top: calc(var(--width_pantalla) * (calc(45/var(--width_base))));
+  padding: calc(var(--width_pantalla) * (calc(25/var(--width_base))));
+  max-width: calc(var(--width_pantalla) * (calc(251/var(--width_base))));
+  font-family: "Sen", serif;
+  font-size: calc(var(--width_pantalla) * (calc(15/var(--width_base))));;
+  line-height: calc(var(--width_pantalla) * (calc(22/var(--width_base))));
+
+  @media (max-width: 767px){
+    font-size: mov(12);
+    line-height: mov(12);
+    position: absolute;
+    left: mov(19);
+    bottom: mov(20);
+    max-width: mov(182);
+    margin-top: initial;
+    padding: mov(13) mov(9);
+  }
+}
+
+.banner-contenido__title strong{
+  font-family: "Geometria Bold",serif;
+  border-bottom: calc(var(--width_pantalla) * (calc(4/var(--width_base)))) solid #4A4F55;
+  @media (max-width: 767px){
+    border-bottom: mov(6) solid #4A4F55;
+  }
+}
+
+.banner__item-imagen{
+  height: calc(var(--width_pantalla) * (calc(560/var(--width_base))));
+  background-size: contain, calc(var(--width_pantalla) * (calc(422/var(--width_base)))) !important;
+  background-color: #C8CFCB !important;
+  background-position: center right, top calc(var(--width_pantalla) * (calc(15/var(--width_base)))) left calc(var(--width_pantalla) * (calc(422/var(--width_base)))) !important;
+  background-repeat: no-repeat !important;
+
+  @media (max-width: 767px){
+    height: mov(412);
+    background-size: cover, calc(var(--width_pantalla) * (calc(200/var(--width_phone)))) !important;
+    background-position: bottom left calc(var(--width_pantalla) * (calc(-267/var(--width_phone)))), top calc(var(--width_pantalla) * (calc(40/var(--width_phone)))) left calc(var(--width_pantalla) * (calc(160/var(--width_phone)))) !important;
+  }
+}
+
+.banner-contenido{
+  max-width: calc(var(--width_pantalla) * (calc(1164/var(--width_base))));
+  @media (max-width: 767px){
+    max-width: 100%;
+    padding-left: mov(19);
+    padding-right: mov(19);
+  }
+}

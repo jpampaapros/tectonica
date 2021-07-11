@@ -1,0 +1,33 @@
+.cover{
+  object-fit: cover;
+}
+.contain{
+  object-fit: contain;
+}
+
+.letra-fondo-benefits{
+  position: absolute;
+  top: desk(118);
+  left: desk(83);
+}
+
+.letra-fondo-contacto{
+  position: absolute;
+  top: 0;
+  right: desk(-190);
+  width: desk(390);
+}
+
+.imagen-posicion2, .imagen-posicion1{
+  position: absolute;
+  width: desk(461);
+  top: desk(-79);
+  right: desk(-154);
+
+  @media (max-width: 767px){
+    width: mov(232);
+    top: initial;
+    right: mov(-115);
+    bottom: mov(215);
+  }
+}

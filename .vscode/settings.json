@@ -1,0 +1,53 @@
+{
+  "deploy.reloaded": {
+    "targets": [{
+      // "type": "ftp",
+      // "name": "Tectonica",
+      // "description": "Tectonica",
+      // "dir": "/wp-content/themes/generatepress_child/",
+      // "host": "ftp.tectonica.com.pe",
+      // "port": 21,
+      // "user": "web2021@tectonica.com.pe",
+      // "password": "g(6a17w$,3]P"
+    }],
+    "packages": [{
+      "name": "My files Wordpress",
+      // "pauseFilesFor": 2000,
+      "deployOnSave": ["Tectonica"],
+      "deployOnChange": {
+        "files": [
+          "/dist/css/mystyles.css",
+          "/dist/js/myscripts.js",
+        ],
+        "targets": ["Tectonica"]
+      },
+      "fastCheckOnSave": true,
+      // "fastCheckOnChange": true,
+      // "checkBeforeDeploy": true,
+      // "checkBeforePull": true,
+      // "syncWhenOpen": "Tectonica",
+      // "removeOnChange": ["Tectonica"],
+      "files": [
+        //   "**/*.*"
+        "**/*.php",
+        "/dist/css/mystyles.css",
+        "/dist/js/myscripts.js",
+        "/src/**/*.*",
+        "/*.*"
+      ],
+      "exclude": [
+        "\\.DS_Store",
+        "Thumbs\\.db",
+        "desktop\\.ini",
+        "tests/**",
+        "dist/hot/**",
+        "dist/js/myscripts.js.LICENSE.txt",
+        "package-lock.json",
+        "*git/**",
+        ".vscode",
+        ".git/**",
+        "node_modules/**"
+      ],
+    }],
+  },
+}

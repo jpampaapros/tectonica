@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'CocoSharp';
+  font-style: normal;
+  font-weight: normal;
+  src: local('CocoSharp Trial'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/coco/Coco-Sharp-Regular-trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CocoSharp Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('CocoSharp Trial'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/coco/Coco-Sharp-Bold-trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Geometria'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/geometria/Geometria.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geometria Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Geometria'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/geometria/Geometria-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sen'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/sen/Sen-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sen Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sen'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/sen/Sen-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sen Bolder';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sen'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/sen/Sen-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: normal;
+  src: local('TT Norms'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/ttnorms/TTNORMS-REGULAR.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'TT Norms Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('TT Norms'), url('https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/ttnorms/TTNORMS-BOLD.OTF') format('truetype');
+}
+
+
+/* vietnamese */
+@font-face {
+  font-family: 'Mulish Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/mulish/Mulish-Regular-100.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mulish Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/mulish/Mulish-Regular-200.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mulish Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/mulish/Mulish-Regular-300.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Mulish Bold';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/mulish/Mulish-Bold-100.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mulish Bold';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/mulish/Mulish-Bold-200.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mulish Bold';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/mulish/Mulish-Bold-300.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Bold'), url(https://tectonica.com.pe/wp-content/themes/generatepress_child/fonts/gilroy/Gilroy-Bold.woff) format('woff');
+}

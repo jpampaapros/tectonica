@@ -1,0 +1,44 @@
+.title-modal{
+  font-family: $font-sen-bold;
+  font-size: desk(20);
+  line-height: desk(20);
+  color: white;
+  text-align: center;
+  margin-bottom: desk(36);
+
+  @media (max-width: 767px){
+    font-size: mov(22);
+    line-height: mov(22);
+    margin-bottom: mov(36);
+  }
+}
+
+.modal-content{
+  width: desk(669);
+  background-color: #4A4F55;
+  color: white;
+  padding: desk(42) desk(78);
+  
+  @media (max-width: 767px){
+    width: mov(320);
+    padding: mov(52) mov(30);
+  }
+}
+
+.fancybox-content{
+  padding: 0;
+}
+
+.fancybox-button.fancybox-close-small{
+  color: white !important;
+  opacity: 1;
+  width: desk(45);
+  height: desk(45);
+  padding: desk(5);
+
+  @media (max-width: 767px){
+    width: mov(45);
+    height: mov(45);
+    padding: mov(5);
+  }
+}

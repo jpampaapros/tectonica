@@ -1,0 +1,285 @@
+.title{
+  font-family: "Geometria",serif;
+  font-size: calc(var(--width_pantalla) * (calc(28/var(--width_base))));
+  line-height: calc(var(--width_pantalla) * (calc(56/var(--width_base))));
+  padding-left: calc(var(--width_pantalla) * (calc(50/var(--width_base))));
+  font-weight: 500;
+
+  @media (max-width: 767px){
+    font-size: mov(18);
+    line-height: mov(26);
+    letter-spacing: mov(1);
+    padding-left: mov(25);
+  }
+  
+  & strong{
+    font-family: "Sen Bold",serif;
+    font-size: calc(var(--width_pantalla) * (calc(72/var(--width_base))));
+    line-height: calc(var(--width_pantalla) * (calc(26/var(--width_base))));
+    letter-spacing: calc(var(--width_pantalla) * (calc(0.2/var(--width_base))));
+    margin-left: calc(var(--width_pantalla) * (calc(-50/var(--width_base))));
+    
+    @media (max-width: 767px){
+      font-size: mov(30);
+      line-height: mov(20);
+      letter-spacing: mov(.2);
+      margin-left: mov(-25);
+    }
+  }
+}
+
+.title-draft{
+  font-family: $font-geometria-bold;
+  font-size: calc(var(--width_pantalla) * (calc(28/var(--width_base))));
+  line-height: calc(var(--width_pantalla) * (calc(56/var(--width_base))));
+  padding-left: calc(var(--width_pantalla) * (calc(50/var(--width_base))));
+
+  @media (max-width: 767px){
+    font-size: mov(18);
+    line-height: mov(26);
+    letter-spacing: mov(1);
+    padding-left: mov(25);
+  }
+
+  & strong{
+    font-family: "Sen Bold",serif;
+    font-size: calc(var(--width_pantalla) * (calc(72/var(--width_base))));
+    line-height: calc(var(--width_pantalla) * (calc(26/var(--width_base))));
+    letter-spacing: calc(var(--width_pantalla) * (calc(0.2/var(--width_base))));
+    margin-left: calc(var(--width_pantalla) * (calc(-50/var(--width_base))));
+    
+    @media (max-width: 767px){
+      font-size: mov(44);
+      line-height: mov(20);
+      letter-spacing: mov(.2);
+      margin-left: mov(-25);
+    }
+  }
+}
+
+.title.strong-big{
+  padding-left: desk(80);
+
+  strong{
+    @media (max-width: 767px){
+      // padding-left: mov(43);
+      padding-left: 0;
+      font-size: mov(44);
+      line-height: mov(20);
+      // margin-left: mov(-43);
+      margin-left: mov(-11);
+    }
+  }
+}
+
+.title-gallery{
+  font-family: $font-mulish-bold;
+  font-size: desk(18);
+  line-height: desk(18);
+
+  @media (max-width: 767px){
+    font-size: mov(18);
+    line-height: mov(20);
+  }
+}
+
+.text-description{
+  font-family: $font-ttnorms;
+  font-size: desk(18);
+  line-height: desk(28);
+  letter-spacing: desk(.2);
+  padding-top: desk(20);
+  padding-left: desk(32);
+
+  @media (max-width: 767px){
+    font-size: mov(18);
+    line-height: mov(30);
+    letter-spacing: mov(.2);
+    padding-top: mov(20);
+    padding-left: mov(32);
+  }
+}
+
+.text-benefits{
+  font-family: $font-sen;
+  font-size: desk(24);
+  line-height: desk(30);
+
+  @media (max-width: 767px){
+    font-size: mov(16);
+    line-height: mov(23);
+  }
+}
+
+.text-location{
+  font-family: $font-geometria;
+  font-size: desk(16);
+  line-height: desk(22);
+  letter-spacing: desk(.3);
+
+  @media (max-width: 767px){
+    font-size: mov(16);
+    line-height: mov(20);
+    letter-spacing: normal;
+  }
+}
+
+.title-muy-pronto{
+  font-family: $font-sen-bold;
+  font-size: desk(36);
+  line-height: desk(72);
+
+  @media (max-width: 767px){
+    font-size: mov(36);
+    line-height: mov(72);
+  }
+}
+
+.title-nosotros{
+  font-family: $font-sen-bold;
+  font-size: desk(18);
+  line-height: desk(24);
+  letter-spacing: desk(.1);
+  margin-top: desk(24);
+  margin-bottom: desk(12);
+
+  @media (max-width: 767px){
+    font-family: $font-mulish-bold;
+    font-size: mov(18);
+    line-height: mov(24);
+    letter-spacing: mov(.1);
+    margin-top: mov(24);
+    margin-bottom: mov(9);
+  }
+}
+
+.text-nosotros{
+  font-family: $font-geometria;
+  font-size: desk(14);
+  line-height: desk(20);
+  letter-spacing: desk(.2);
+
+  @media (max-width: 767px){
+    font-family: $font-mulish;
+    font-size: mov(14);
+    line-height: mov(20);
+    letter-spacing: mov(.2);
+  }
+}
+
+.text-location-contact{
+  font-family: $font-geometria;
+  font-size: desk(18);
+  line-height: desk(23);
+
+  @media (max-width: 767px){
+    font-size: mov(15);
+    line-height: mov(19);
+  }
+}
+
+.text-contacto{
+  font-family: $font-sen-bold;
+  font-size: desk(20);
+  line-height: desk(30);
+  letter-spacing: desk(.2);
+
+  @media (max-width: 767px){
+    font-size: mov(18);
+    line-height: mov(25);
+    letter-spacing: mov(.2);
+  }
+}
+
+.text-img-slider-cotizar{
+  font-family: $font-ttnorms;
+  font-size: desk(14);
+  line-height: desk(17);
+
+  @media (max-width: 767px){
+    font-size: mov(10);
+    line-height: mov(12);
+  }
+}
+
+.text-img-slider-cotizar--bold{
+  font-family: $font-ttnorms-bold;
+  font-size: desk(14);
+  line-height: desk(17);
+
+  @media (max-width: 767px){
+    font-size: mov(12);
+    line-height: mov(14);
+  }
+}
+
+.text-draft-detalle-inicio{
+  font-family: $font-geometria;
+  font-size: desk(14);
+  line-height: desk(14);
+
+  @media (max-width: 767px){
+    font-size: mov(12);
+    line-height: mov(12);
+  }
+}
+
+.text-shadow-distrito{
+  font-family: $font-coco-bold;
+  font-size: desk(144);
+  line-height: desk(128);
+  position: absolute;
+  top: desk(44);
+  left: desk(69);
+  color: #ECEAE8;
+  white-space: nowrap;
+
+  @media (max-width: 767px){
+    font-size: mov(72);
+    top: mov(32);
+    line-height: mov(84);
+    // font-size: mov(65);
+    // top: mov(25);
+    left: mov(73);
+  }
+}
+
+.title-gracias{
+  font-family: $font-sen-bolder;
+  font-size: desk(36);
+  line-height: desk(43);
+  margin-bottom: desk(16);
+
+  @media (max-width: 767px){
+    font-size: mov(18);
+    line-height: mov(22);
+    margin-bottom: mov(17);
+  }
+}
+
+.text-gracias{
+  font-family: $font-sen-bold;
+  font-size: desk(24);
+  line-height: desk(29);
+  @media (max-width: 767px){
+    font-size: mov(20);
+    line-height: mov(24);
+    max-width: mov(200);
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 LINE HEIGHT                                */
+/* -------------------------------------------------------------------------- */
+
+.line-0{
+  line-height: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                LETTER SPACE                                */
+/* -------------------------------------------------------------------------- */
+
+.letter-5{
+  letter-spacing: calc(var(--width_pantalla) * (calc(5/var(--width_base))));
+}

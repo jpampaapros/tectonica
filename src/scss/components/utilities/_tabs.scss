@@ -1,0 +1,57 @@
+.tabs-panel{
+  transition: opacity 1s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.tabs-panel.active {
+  opacity: 1;
+  height: auto;
+}
+
+.tabs-button, .button.tabs-button, .tabs-button:active,.button.tabs-button:active, .tabs-button:focus,.button.tabs-button:focus, .button.tabs-button:hover, .tabs-button:hover{
+  background-color: transparent;
+  padding: 0;
+  color: black;
+}
+
+.tabs-button:not(:last-of-type){
+  margin-right: desk(24);
+
+  @media (max-width: 767px){
+    margin-right: mov(32);
+  }
+}
+
+.tabs-button{
+  position: relative;
+  font-family: $font-ttnorms;
+  font-size: desk(15);
+  line-height: desk(18);
+
+  @media (max-width: 767px){
+    font-size: mov(14);
+    line-height: mov(20);
+  }
+}
+
+.tabs-button.active{
+  font-family: $font-ttnorms-bold;
+}
+.tabs-button.active::before{
+  content: "";
+  position: absolute;
+  bottom: desk(-1);
+  display: block;
+  right:0;
+  left:0;
+  height: desk(2);
+  background-color: black;
+  z-index: 1;
+
+  @media (max-width: 767px){
+    bottom: mov(-1);
+    height: mov(2);
+  }
+}

@@ -1,0 +1,119 @@
+.none{
+  display: none;
+}
+
+.inline{
+  display: inline;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.block{
+  display: block;
+}
+
+.inline-flex{
+  display: inline-flex;
+}
+
+.flex{
+  display: flex;
+}
+
+@media (min-width: 768px){
+  .only-mov, .only-mov--flex{
+    display: none;
+  }
+  
+}
+
+@media (max-width: 767px){
+  .only-desk, .sm-br-none br, .footer-info-text, .only-desk.card-draft__flontante--banner{
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    FLEX                                    */
+/* -------------------------------------------------------------------------- */
+
+.justify-start{
+  justify-content: flex-start;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 ALIGN ITEMS                                */
+/* -------------------------------------------------------------------------- */
+
+.align-start{
+  align-items: flex-start;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.align-end{
+  align-items: flex-end;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 FLEX SHRINK                                */
+/* -------------------------------------------------------------------------- */
+
+.shrink-0{
+  flex-shrink: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  FLEX WRAP                                 */
+/* -------------------------------------------------------------------------- */
+
+.wrap{
+  flex-wrap: wrap;
+}
+.no-wrap{
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 767px){
+  .sm-no-wrap{flex-wrap: nowrap;}
+  .sm-wrap{flex-wrap: wrap;}
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 FLEX COLUMN                                */
+/* -------------------------------------------------------------------------- */
+
+.column{
+  flex-direction: column;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  MIXTURES                                  */
+/* -------------------------------------------------------------------------- */
+
+.flex-center{
+  @extend .flex;
+  @extend .justify-center;
+  @extend .align-center;
+}

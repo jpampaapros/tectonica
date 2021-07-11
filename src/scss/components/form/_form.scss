@@ -1,0 +1,195 @@
+input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]):focus,
+textarea,textarea:focus,
+select {
+  width: 100%;
+  padding: desk(7) desk(11);
+  border-radius: desk(4);
+  background-color: transparent;
+  border: desk(1) solid #C8C8C8;
+  font-size: desk(12);
+  line-height: desk(15);
+
+  @media (max-width: 767px){
+    border-radius: 0;
+    border: mov(1) solid #C8C8C8;
+    font-size: mov(14);
+    line-height: mov(18);
+    padding: mov(10) mov(12);
+  }
+}
+
+input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
+select{
+  height: desk(39);
+
+  @media (max-width: 767px){
+    height: mov(44);
+  }
+}
+
+textarea{
+  height: desk(126);
+  @media (max-width: 767px){
+    height: mov(103);
+  }
+}
+
+.form input[type="submit"]{
+  width: 100%;
+  padding: desk(12) desk(18);
+  background-color: var(--color-pagina);
+  border-radius: desk(4);
+  font-family: $font-sen-bold;
+  font-size: desk(18);
+  line-height: desk(18);
+  letter-spacing: desk(.3); 
+
+  @media (max-width: 767px){
+    padding: mov(11);
+    border-radius: mov(5);
+    font-size: mov(18);
+    line-height: mov(22);
+  }
+}
+
+[type="radio"],
+[type="checkbox"] {
+  margin-right: desk(5);
+  margin-top: desk(4);
+  @media (max-width: 767px){
+    margin-right: mov(5);
+    margin-top: mov(4);
+  }
+}
+
+.form-control {
+  margin-bottom: desk(17);
+  
+  @media (max-width: 767px){
+    margin-bottom: mov(8);
+  }
+}
+
+
+.form-label{
+  font-family: $font-geometria;
+  display: block;
+  font-size: desk(14);
+  line-height: desk(18);
+  margin-bottom: desk(5);
+  text-transform: capitalize;
+
+  @media (max-width: 767px){
+    margin-bottom: mov(5);
+    font-size: mov(12);
+    line-height: mov(15);
+  }
+}
+
+.form--label-bold .form-label{
+  font-family: $font-geometria-bold;
+}
+
+.sm-form--label-bold .form-label{
+  @media (max-width: 767px){
+    font-family: $font-geometria-bold;
+  }
+}
+
+.form--label-black .form-label{
+  color: black;
+}
+
+.form--border-black input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
+.form--border-black input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]):focus,
+.form--border-black textarea,
+.form--border-black textarea:focus,
+.form--border-black select{
+  border-color: black;
+}
+
+.form--bg-white input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
+.form--bg-white input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]):focus,
+.form--bg-white textarea,
+.form--bg-white textarea:focus,
+.form--bg-white select{
+  background-color: white;
+}
+
+.form br, .form p:empty {
+  display: none;
+}
+
+.form-info{
+  font-family: $font-geometria;
+  font-size: desk(12);
+  line-height: desk(15);
+  margin-bottom: desk(18);
+  display: block;
+
+  @media (max-width: 767px){
+    font-size: mov(10);
+    line-height: mov(15);
+    margin-bottom: mov(15);
+  }
+}
+
+.form-acept{
+  font-family: $font-geometria;
+  font-size: desk(12);
+  line-height: desk(15);
+  display: inline-block;
+
+  @media (max-width: 767px){
+    font-size: mov(13);
+    line-height: mov(15);
+    margin-bottom: mov(24);
+  }
+}
+
+.form-acept--bold, .form-acept.form-acept--bold{
+  font-family: $font-geometria-bold;
+}
+
+.wpcf7-acceptance > .wpcf7-list-item{
+  display: flex;
+}
+
+.wpcf7-list-item{
+  margin: 0;
+}
+
+.aceptar-politicas label{
+  display: flex;
+  margin-bottom: desk(31);
+
+  @media (max-width: 767px){
+    margin-bottom: mov(24);
+  }
+}
+
+.ajax-loader{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+  margin-top: 20px !important;
+}
+
+.wpcf7-not-valid-tip {
+  font-size: desk(12);
+  line-height: desk(15);
+  @media (max-width: 767px){
+    font-size: mov(13);
+    line-height: mov(15);
+  }
+}
+
+.wpcf7-response-output{
+  font-size: desk(14);
+  line-height: desk(18);
+  
+  @media (max-width: 767px){
+    font-size: mov(12);
+    line-height: mov(15);
+  }
+}

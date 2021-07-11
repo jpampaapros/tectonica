@@ -1,0 +1,8 @@
+
+@function desk($medida: 0) {
+  @return calc(var(--width_pantalla) * (calc(#{$medida}/var(--width_base))));
+}
+
+@function mov($medida: 0) {
+  @return calc(var(--width_pantalla) * (calc(#{$medida}/var(--width_phone))));
+}

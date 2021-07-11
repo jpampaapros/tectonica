@@ -1,0 +1,12 @@
+.map-draft .wpgmp_map {
+  width: 100%;
+  height: desk(535) !important;
+
+  @media (max-width: 767px){
+    height: mov(360) !important;
+  }
+}
+
+.map-draft .wpgmp_map_parent{
+  margin-bottom: 0;
+}
